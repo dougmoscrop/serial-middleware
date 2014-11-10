@@ -1,0 +1,25 @@
+{
+  "name": "serial-middleware",
+  "version": "1.0.0",
+  "description": "chain middleware (including param) together",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "author": "Doug Moscrop",
+  "license": "MIT",
+  "repository": "https://github.com/dmoscrop/serial-middleware.git",
+  "keywords": [
+    "async",
+    "express",
+    "connect",
+    "middleware"
+  ],
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "async-waterfall": "^0.1.5",
+    "ensure-array": "0.0.5"
+  }
+}
