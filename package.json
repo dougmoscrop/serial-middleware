@@ -1,12 +1,16 @@
 {
   "name": "serial-middleware",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "chain middleware (including param) together",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec.js"
+    "test": "jshint index.js spec.js && jscs index.js spec.js && mocha spec.js"
   },
-  "author": "Doug Moscrop",
+  "author": "Doug Moscrop <doug.moscrop@gmail.com>",
+  "contributors": [{
+    "name": "Jeffrey Charles",
+    "email": "jeffreycharles@gmail.com"
+  }],
   "license": "MIT",
   "repository": "https://github.com/dmoscrop/serial-middleware.git",
   "keywords": [
@@ -16,6 +20,8 @@
     "middleware"
   ],
   "devDependencies": {
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
     "mocha": "^2.0.1"
   },
   "dependencies": {
