@@ -89,7 +89,7 @@
 
 	"validateParameterSeparator": ", ",
 
-	"validateIndentation": "\t",
+	"validateIndentation": 2,
 
 	"excludeFiles": [
 		"node_modules/**",
